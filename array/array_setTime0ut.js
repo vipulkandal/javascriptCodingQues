@@ -13,4 +13,5 @@ async function delayedOutput(numbers) {
 }
 
 const numbers = [2, 4, 1, 3];
-delayedOutput(numbers);
+// delayedOutput(numbers);
+

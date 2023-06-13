@@ -1,7 +1,16 @@
+let nums = [2, 7, 11, 15], target = 9;
+let twoSum = (nums, target) => {
+    let output = []
+    let set = new Set(nums);
 
-const arr = {
-    name: "vipul"
+    for (let i = 0; i < nums.length - 1; i++) {
+        for (let j = 0; i < nums.length; j++) {
+            // if (nums[i] + nums[j] == target) {
+            //     output[nums[i], nums[j]]
+            // }
+        }
+    }
+    return output.length > 0 ? output : "No match found"
 }
 
-arr.name = "test"
-console.log(arr)
+console.log(twoSum(nums, target))
