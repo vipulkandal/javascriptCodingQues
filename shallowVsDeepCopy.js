@@ -45,7 +45,7 @@ let obj = {
 
     /*
     Limitation:
-    It cannot copy function in an Object.
+    It cannot copy Date and function in an Object.
     For that we need to install the npm package lodash. 
     */
 }

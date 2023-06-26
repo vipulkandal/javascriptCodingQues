@@ -14,6 +14,24 @@ console.log(arrSetUpdate)
     console.log(arrNew)
 }
 
+// 1.b 
+{
+    function removeDuplicates(string) {
+        let result = "";
+        const seen = [];
+        for (const char of string) {
+            if (!seen.includes(char)) {
+                result += char;
+                seen.push(char);
+            }
+        }
+        return result;
+    }
+
+    const string = "helloworld";
+    console.log(removeDuplicates(string));
+}
+
 //-------------------------------------------------------------
 
 // 2. Remove Duplicate id in Array Object
